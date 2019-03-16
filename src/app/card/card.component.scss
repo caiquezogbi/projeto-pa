@@ -1,0 +1,23 @@
+.card {
+    display: inline-block;
+    max-width: 280px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+    
+    img {
+      width: 100%;
+      border-radius: 6px 6px 0 0;
+    }
+    
+    h2, p {
+      margin: 0;
+      padding: .6em;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    p {
+      font-size: .95em;
+    }
+  }
